@@ -19,7 +19,8 @@
                 <Border x:Name="border"
                         Background="White"
                         CornerRadius="5"/>
-                <ListView BorderThickness="0"/>
+                <ListView BorderThickness="0"
+                          ItemsSource="{Binding YouTubeViewersListingItemViewModel}"/>
             </Grid>
         </Border>
     </Grid>
