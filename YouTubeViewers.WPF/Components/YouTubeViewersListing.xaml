@@ -21,6 +21,7 @@
                         Background="White"
                         CornerRadius="5"/>
                 <ListView BorderThickness="0"
+                          SelectedItem="{Binding SelectedYouTubeViewerListingItemViewModel}"
                           ItemsSource="{Binding YouTubeViewersListingItemViewModel}">
                     <ListView.ItemContainerStyle>
                         <Style TargetType="ListViewItem">
